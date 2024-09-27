@@ -1,19 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-color: #f0f0f0; 
+}
 .calculator {
     width: 300px;
-    margin: auto;
     border: 1px solid #ccc;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background-color: #fff;
     transition: width 0.3s ease;
 }
-
 @media (min-width: 768px) {
     .calculator {
         width: 400px;
     }
 }
-
 @media (max-width: 480px) {
     .calculator {
         width: 100%;
